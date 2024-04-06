@@ -1,0 +1,303 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.clear{
+  clear: both;
+}
+.main{
+  width: 100%;
+}
+.arrow-up{
+  width: 50px;
+  padding: 25px 0;
+}
+.arrow-up .up-arr{
+  position: fixed;
+  font-size: 50px;
+  color: #0296DA;
+  background-color: white;
+  border: 1px solid #0296DA;
+  border-radius: 50%;
+  top: 600px;
+  right: 10px;
+}
+/*+++++++ section 1 css +++++++++++++++++*/
+.section1{
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+  z-index: 99999;
+}
+.container{
+  width: 1300px;
+  padding: 17px 20px;
+  margin: 0 auto;
+}
+.logo img{
+  width: 130px;
+  float: left;
+}
+.nav{
+  float: right;
+}
+.nav ul{
+  float: left;
+  padding: 13px 0;
+}
+.nav ul li{
+  list-style: none;
+  display: inline;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.8px;
+  margin: 0 20px;
+  
+}
+.nav ul li a{
+  text-decoration: none;
+  color: #0095DA;
+
+}
+/*+++++++++++ Section 2 css ++++++++++++++++*/
+.section2{
+  width: 100%;
+  background:url(./img/the-town-bg-01.jpg) center no-repeat; 
+  background-size: cover;
+  background-attachment: fixed;
+}
+.section2 h1{
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 45px;
+  padding-top: 225px;
+  padding-bottom: 15px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+.arrow-key{
+  text-align: center;
+}
+.down-arrow{
+  font-size: 80px;
+  color: white;
+  align-items: center;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-bottom: 262px;
+  transition: 0.5s;
+}
+.down-arrow:hover{
+  color: #0a8fe7;
+  background-color: white;
+}
+/*++++++++++++++ section 3 css +++++++++++++++*/
+.section3{
+  width: 100%;
+  padding: 100px 0 0 0;
+}
+.sec3-row{
+  width: 100%;
+}
+.sec3-col{
+  width: 50%;
+  float: left;
+  /* padding: 20px 15px; */
+}
+.sec3-col:nth-child(1) .img{
+  width: 100%;
+  margin: 0 auto;
+}
+.sec3-col:nth-child(2){
+  width: 50%;
+  float: right;
+}
+.sec3-col:nth-child(2) h2{
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3496D8;
+  padding-bottom: 35px;
+}
+.sec3-col:nth-child(2) p{
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8f8f8f;
+  padding-bottom: 30px;
+  word-spacing: 5px;
+}
+.sec3-col:nth-child(2) .btn{
+  padding: 13px 40px;
+  background: #3496d8;
+  border: none;
+  color: white;
+  font-size: 19px;
+  transition: 0.5s;
+  border-radius: 25px;
+}
+.sec3-col2{
+  width: 33.33%;
+  float: left;
+  padding-top: 100px;
+  text-align: center;
+}
+.card-img{
+  text-align: center;
+}
+.card-img i{
+  font-size: 60px;
+  color: #3496d8;
+}
+.sec3-col2 h3{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 35px 0;
+  color: #3496d8;
+}
+.sec3-col2 p{
+  font-size: 19px;
+  text-align: center;
+  padding: 0px 10px;
+  line-height: 30px;
+  color: #8f8f8f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*++++++++++++++++++ Section 4 css +++++++++++++++++++++*/
+.section4 .sec4-title{
+  font-size: 45px;
+  color: #3496d8;
+  text-align: center;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 100px;
+  padding-bottom: 35px;
+}
+.section4 p{
+  text-align: center;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+  color: #8f8f8f;
+  font-weight: normal;
+  padding: 0 310px;
+  margin-bottom: 65px;
+}
+.hover-container{
+  width: 100%;
+}
+.hover-card{
+  width: 220px;
+  position: relative;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 20px;
+  /* z-index: 0; */
+}
+.hover-card img{
+  width: 100%;
+  z-index: 0;
+}
+.hover-card .card-cnt{
+  position: absolute;
+  color: white;
+  text-align: left;
+  font-size: 27px;
+  padding: 0 42px;
+  transition: .5s;
+  padding-top: 104px;
+  top: 0;
+  bottom: 0;
+  font-size: 27px;
+  z-index: 99;
+  opacity: 0;
+}
+.card-cnt:hover{
+  background: #4a375354;
+  opacity: 1;
+}
+/*+++++++++++ section 5 css +++++++++++++++++++++*/
+.section5{
+  width: 100%;
+  background:url(./img/the-town-bg-02.jpg) center no-repeat; 
+  background-size: cover;
+  background-attachment: fixed;
+}
+.inner-con{
+  padding: 0px 100px;
+}
+.section5 h3{
+  color: white;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 102px;
+}
+.hori-row{
+  width: 100%;
+  border-top: 1px solid white;
+  margin: 10px 0 55px 0;
+}
+.thick-row{
+  width: 25%;
+  height: 8px;
+  background-color: white;
+}
+.inner-con p{
+  color: white;
+  font-size: 20px;
+  word-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 55px;
+}
+.contact-container{
+  width: 100%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 150px;
+}
+.cont-row{
+  width: 100%;
+  margin: 60px 0;
+}
+.cont-col{
+  width: 45%;
+  float: left;
+}
+.cont-col i{
+  font-size: 40px;
+  margin: 0 20px;
+  float: left;
+}
+.cont-col span{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  padding: 11px 0;
+}
+.cont-col input{
+  width: 200px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 0 10px 0 20px;
+  background: inherit;
+  color: white;
+  border: 1px solid white;
+}
+::placeholder{
+  color: white;
+}
+.cont-col button{
+  width: 105px;
+  padding: 10px;
+  background-color: #CED4DA;
+  border: 1px solid #CED4DA;
+  border-radius: 5px;
+
+}
+.btm-cnt p{
+text-align: center;
+color: rgb(255 255 255 / 68%);
+font-size: 15px;
+margin: 0;
+}
